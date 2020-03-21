@@ -1,0 +1,19 @@
+.ButtonsField {
+    padding: 0 0 var(--input-padding);
+}
+
+.ButtonsField-label {
+    height: var(--input-padding);
+    font-size: var(--input-label-font-size);
+    text-align: left;
+}
+
+.ButtonsField-buttons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--input-text-bottom-border-color);
+}
+
+.ButtonsField-buttons > button {
+    min-width: unset;
+}
